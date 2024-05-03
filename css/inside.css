@@ -1,0 +1,31 @@
+.cardInside {
+    position: absolute;
+    background-color: #ffffff;
+    width: 250px;
+    height:350px;
+    z-index:-1;
+    left:0;
+    top:0;
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
+  }
+  
+  .inside-text {
+    position: relative;
+    top:-160px;
+    transform: scale(0.7);
+  }
+  
+  .wishes {
+    position: relative;
+    top:-100px;
+    margin: 25px;
+  }
+  
+  p {
+    font-family: 'cursive';
+    color: #000000;
+  }
+  
+  .name {
+    margin-left:150px;
+  }
